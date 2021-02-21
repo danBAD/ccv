@@ -1,0 +1,39 @@
+P
+{
+	font-size: 1em; /* Paragraphe de 1em. Possible d'utiliser 1ex  */
+	font-family: impact,"Arial Black", Arial, Verdana, sans-serif;
+}
+
+h1
+{
+	font-size: 5em; /* Titre de 5em */
+
+}
+
+Body
+{
+	background-image: url("img-fon1.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: top right;
+}
+
+ul
+{
+	display: flex;
+	list-style-type: none;
+	padding: 0;
+}
+
+
+a: link{
+	color: pink;
+}
+
+a: visited {
+	color: green;
+}
+
+a: hover{
+	text-decoration: none;
+}
